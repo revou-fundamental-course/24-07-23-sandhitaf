@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: 'CustomFont';
     src: url('/assets/CraftyGirls-Regular.ttf') format('truetype');
-}
+} */
 
 @media screen and (max-width: 600px) {
     .HeadNav {
