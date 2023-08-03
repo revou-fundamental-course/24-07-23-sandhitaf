@@ -51,20 +51,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
     /* Name check */
     if (name === '') {
-        alert('Why your name is empty? :(');
+        alert('Please enter your name to continue');
         return false;
     }
     
     /* Email check */
     if (email === '') {
-        alert('Why your email is empty? :(');
+        alert('Please enter your email address to continue');
         return false;
     }
 
     /* Email validation Check */
     var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!email.match(emailRegex)) {
-        alert('You sure your email is right? no typos?');
+        alert('Please check your email and try again');
         return false;
     }
 
