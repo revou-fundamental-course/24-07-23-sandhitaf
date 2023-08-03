@@ -1,18 +1,14 @@
-/*Body Font Custom*/
-
 @font-face {
     font-family: 'CustomFont';
     src: url('/assets/CraftyGirls-Regular.ttf') format('truetype');
-    }
+}
 
-/*Media Query for Responsiveness*/
-
-    @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .HeadNav {
         flex-direction: column;
         padding: 0%;
     }
-    
+
     .menu {
         width: 97%;
         flex-direction: column;
@@ -21,11 +17,11 @@
 
     a {
         text-align: center;
-    } 
+    }
 
     .logo {
         align-self: center;
-     
+
     }
 
     .HeadTit {
@@ -39,7 +35,7 @@
 
     .testimonial {
         flex-direction: column;
-        padding: 0% 1% ;
+        padding: 0% 1%;
     }
 
     nav ul {
@@ -52,7 +48,6 @@
         margin-bottom: 10px;
     }
 
-/*Styles for the "Why you should choose our travel agent?" section*/
 
     #pros1,
     #pros2,
@@ -60,7 +55,6 @@
         text-align: center;
     }
 
-/*Styles for the form section*/
 
     #articleform {
         text-align: center;
@@ -76,347 +70,329 @@
     }
 }
 
-/*END OF MEDIA QUERY SECTION*//*END OF MEDIA QUERY SECTION*/
 
-/*Styles Header Navigation Section*/
-    .HeadNav {
-        display: flex;
-        justify-content: space-between;
-        background-color: #213555;
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: large;
-    }
+.HeadNav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #213555;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: large;
+}
 
-    .menu {
-        display: flex;
-        gap: 5px;
-    }
+.menu {
+    display: flex;
+    gap: 5px;
+}
 
-    nav a {
-        border: 1px solid #4F709C;
-        border-radius: 9px;
-        padding: 10px 10px;
-        margin: auto;
-        color: #ffffff;
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-    }
+nav a {
+    border: 1px solid #4F709C;
+    border-radius: 9px;
+    padding: 10px 10px;
+    margin: auto;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
 
-    nav a:hover {
-        background-color: #d17534;
-    }
+nav a:hover {
+    background-color: #d17534;
+}
 
-/*Main Tittle Section*/
+.HeadTit {
+    color: #213555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: medium;
+    font-family: 'customfont';
+}
 
-    .HeadTit {
-        color: #213555;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: medium;
-        font-family: 'customfont';
-    }
+#SubTit {
+    color: #4F709C;
+    font-family: Arial, Helvetica, sans-serif;
 
-    #SubTit {
-        color: #4F709C;
-        font-family: Arial, Helvetica, sans-serif;
-    
-    }
+}
 
+body {
+    font-family: 'customfont';
+    background-color: #D8C4B6;
+    margin: 0 0 0 0;
+    font-size: 16px;
+}
 
-/*Styles Font and Color for Body*/
+.slider-container {
+    border-radius: 35px;
+    max-width: 575px;
+    height: 350px;
+    overflow: hidden;
+}
 
-    body {
-        font-family: 'customfont';
-        background-color: #D8C4B6;
-        margin: 0 0 0 0;
-        font-size: 16px;
-        }
+.slider {
+    display: flex;
+    transition: 10s;
+}
 
+.slide {
+    flex: 0 0 0%;
+}
 
-/*Image Slider Testimoni Section*/
+.testimonial {
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    margin: 0% 10% 10% 10%;
+}
 
-    .slider-container {
-        border-radius: 35px;
-        max-width: 575px;
-        height: 350px;
-        overflow: hidden;
-        }
-
-    .slider {
-        display: flex;
-        transition: 10s;
-        }
-
-    .slide {
-        flex: 0 0 0%;
-        }
-
-    .testimonial {
-        padding-top: 2%;
-        display: flex;
-        flex-direction: row;
-        margin: 0% 10% 10% 10%;
-        }
-
-    .TestiPhoto {
-        padding-bottom: 10px;
-        padding-left: 35px;
-        display: flex;
-        gap: 25px;
-        align-items: center;
-        }
+.TestiPhoto {
+    padding-bottom: 10px;
+    padding-left: 35px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
 
 /*"Why You Should Choose" Section*/
 
-    #pros1 {
-        display: flex;
-        gap: 15px;
-        align-items: center;
-        }
+#pros1 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
 
-    #pros2 {
-        display: flex;
-        gap: 15px;
-        align-items: center;
-        }
+#pros2 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
 
-    #pros3 {
-        display: flex;
-        gap: 15px;
-        align-items: center;
-        }
+#pros3 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
 
-    .prosphoto {
-        width: 20px;
-        height: 20px;
-        }
+.prosphoto {
+    width: 20px;
+    height: 20px;
+}
 
-/*Form Styles Section*/
+#form0 {
+    text-align: center;
+}
 
-    #form0 {
-        text-align: center;
-        }
+#form1 {
+    text-align: center;
+    margin: 0% 15% 10% 10%;
+}
 
-    #form1 {
-        text-align: center;
-        margin: 0% 15% 10% 10%;
-        }
+#form input {
+    width: 70%;
+    padding: 10px;
+    margin: 0% 10% 0% 10%;
+    border-radius: 9px;
+    font-size: 14px;
+}
 
-    #form input {
-        width: 70%;
-        padding: 10px;
-        margin: 0% 10% 0% 10%;
-        border-radius: 9px;
-        font-size: 14px;
-        }
+#form select {
+    width: 75%;
+    padding: 10px;
+    margin: 0% 10% 5% 10%;
+    border-radius: 9px;
+    font-size: 14px;
+}
 
-    #form select {
-        width: 75%;
-        padding: 10px;
-        margin: 0% 10% 5% 10%;
-        border-radius: 9px;
-        font-size: 14px;
-        }
+#form label {
+    margin: 0% 0% 0% 11%;
+}
 
-    #form label {
-        margin: 0% 0% 0% 11%;
-        }
+#form button {
+    width: 75%;
+    margin: 0% 0% 5% 10%;
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 16px;
+}
 
-    #form button {
-        width: 75%;
-        margin: 0% 0% 5% 10%;
-        padding: 10px;
-        background-color: transparent;
-        color: #fff;
-        border: 1px solid white;
-        border-radius: 9px;
-        cursor: pointer;
-        font-size: 16px;
-        }
+#form button:hover {
+    background-color: #F5EFE7;
+}
 
-    #form button:hover {
-        background-color: #F5EFE7;
-        }
+.article {
+    color: #213555;
+    padding-top: 0%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
 
-    .article {
-        color: #213555;
-        padding-top: 0%;
-        padding-right: 5%;
-        display: flex;
-        flex-direction: column;
-        flex-basis: 50%;
-        }
+#articleform {
+    color: #ffffff;
+    background-color: #213555;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0%;
+}
 
-    #articleform {
-        color: #ffffff;
-        background-color:#213555;
-        display: flex;
-        flex-direction: column;
-        padding-top: 0%;
-        }
-
-    li {
-        text-align: left;
-        }
+li {
+    text-align: left;
+}
 
 
-    #TestiAvatar {
-        background-color: #213555;
-        border-radius: 25px;
-        padding-left: 20px;
-        padding-right: 10%;
-        display: flex;
-        gap: 20px;
-        align-items: center;
-        color: white;
-        }
+#TestiAvatar {
+    background-color: #213555;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 10%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: white;
+}
 
-    .avatar {
-        max-width: 50x;
-        max-height: 50px;
-        }
+.avatar {
+    max-width: 50x;
+    max-height: 50px;
+}
 
+article {
+    padding: 15px 15px 15px 15px;
+    border-radius: 25px;
+}
 
-    
+#opsection {
+    display: flex;
+    justify-content: center;
+}
 
-    article {
-        padding: 15px 15px 15px 15px;
-        border-radius: 25px;
-        }
+.containerlp1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin: 25px;
+    padding: 0 0 0 0;
+}
 
-/*Our Package Section*/
-    #opsection {
-        display: flex;
-        justify-content: center;
-        }
+.listpack1 {
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
 
-    .containerlp1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        max-width: 100%;
-        margin: 25px ;
-        padding: 0 0 0 0;
-        }
-  
-    .listpack1 {
-        padding: 10px 10px 10px 10px;
-        text-align: center;
-        margin-bottom: 10px;
-        }
-  
-    .listpack1 h3 {
-        margin-top: 0;
-        }
-  
-    .listpack1 p {
-        text-align: center;
-        text-justify: auto;
-        max-width: 220px;
-        margin-bottom: 0;
-        }
+.listpack1 h3 {
+    margin-top: 0;
+}
 
-    .titletrip1 {
-        text-align: center;
-        }
+.listpack1 p {
+    text-align: center;
+    text-justify: auto;
+    max-width: 220px;
+    margin-bottom: 0;
+}
 
-    .containerlp2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        max-width: 100%;
-        margin: 25px ;
-        padding: 0 0 0 0;
-        }
-  
-    .listpack2 {
-        padding: 10px 10px 10px 10px;
-        text-align: center;
-        margin-bottom: 10px;
-        }
-  
-    .listpack2 h3 {
-        margin-top: 0;
-        }
-  
-    .listpack2 p {
-        text-align: center;
-        text-justify: auto;
-        max-width: 220px;
-        margin-bottom: 0;
-        }
+.titletrip1 {
+    text-align: center;
+}
 
-    .titletrip2 {
-        text-align: center;
-        }
+.containerlp2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin: 25px;
+    padding: 0 0 0 0;
+}
+
+.listpack2 {
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.listpack2 h3 {
+    margin-top: 0;
+}
+
+.listpack2 p {
+    text-align: center;
+    text-justify: auto;
+    max-width: 220px;
+    margin-bottom: 0;
+}
+
+.titletrip2 {
+    text-align: center;
+}
 
 
-    #opsection {
-        color: white;
-        background-color: #213555;
-        height: 150px;
-        align-items: center;
-        }
+#opsection {
+    color: white;
+    background-color: #213555;
+    height: 150px;
+    align-items: center;
+}
 
-    .breaklineclosing {
-        border: none;
-        height: 10px;
-        background-color:#213555;
-        margin: 10%;
-        border-radius: 9px;
-        }
+.breaklineclosing {
+    border: none;
+    height: 10px;
+    background-color: #213555;
+    margin: 10%;
+    border-radius: 9px;
+}
 
-    .breaklineopsection {
-        border: none;
-        height: 2px;
-        background-color:#213555;
-        margin: 5% 35% 5% 35%;
-        border-radius: 9px;
-        }
+.breaklineopsection {
+    border: none;
+    height: 2px;
+    background-color: #213555;
+    margin: 5% 35% 5% 35%;
+    border-radius: 9px;
+}
 
-/*Closing Section*/
+.closection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
 
-    .closection{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        }
+footer {
+    text-align: center;
+    background-color: #4F709C;
+    color: #F5EFE7;
+    padding: 10px;
+}
 
-    footer {
-        text-align: center;
-        background-color: #4F709C;
-        color: #F5EFE7;
-        padding: 10px;
-        }
+#book {
+    color: #213555;
+    font-size: large;
+    padding-bottom: 15%;
+}
 
-    #book {
-        color: #213555;
-        font-size: large;
-        padding-bottom: 15%;
-        }
+footer p {
+    margin: 0;
+}
 
-    footer p {
-        margin: 0;
-        }
+.bc {
+    display: flex;
+    gap: 5px;
+}
 
-    .bc {
-            display: flex;
-            gap: 5px;
-        }
-    
-        nav a  {
-            border: 1px solid #4F709C;
-            border-radius: 9px;
-            padding: 10px 10px;
-            margin: auto;
-            color: #4F709C; 
-            font-family: Arial, Helvetica, sans-serif;
-            text-decoration: none;
-        }
-    
-        nav a:hover {
-            background-color: #4F709C;
-        }
+nav a {
+    border: 1px solid #4F709C;
+    border-radius: 9px;
+    padding: 10px 10px;
+    margin: auto;
+    color: #4F709C;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #4F709C;
+}
