@@ -1,7 +1,12 @@
-/* @font-face {
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{site.minimal_mistakes_skin | default: 'default'}}";
+@import "minimal-mistakes";
+
+@font-face {
     font-family: 'CustomFont';
     src: url('/assets/CraftyGirls-Regular.ttf') format('truetype');
-} */
+}
 
 @media screen and (max-width: 600px) {
     .HeadNav {
