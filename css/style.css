@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'CustomFont';
-    src: url('/assets/Raleway-Light.ttf') format('truetype');
+    src: url('/assets/CraftyGirls-Regular.ttf') format('truetype');
     }
 
 /*Media Query for Responsiveness*/
@@ -82,7 +82,7 @@
     .HeadNav {
         display: flex;
         justify-content: space-between;
-        background-color: #427a4c;
+        background-color: #213555;
         padding-left: 10px;
         padding-right: 10px;
         font-size: large;
@@ -94,7 +94,7 @@
     }
 
     nav a {
-        border: 1px solid #85a389;
+        border: 1px solid #4F709C;
         border-radius: 9px;
         padding: 10px 10px;
         margin: auto;
@@ -104,13 +104,13 @@
     }
 
     nav a:hover {
-        background-color: #c4d7b2;
+        background-color: #d17534;
     }
 
 /*Main Tittle Section*/
 
     .HeadTit {
-        color: #404e3f;
+        color: #213555;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -119,7 +119,7 @@
     }
 
     #SubTit {
-        color: #85a389;
+        color: #4F709C;
         font-family: Arial, Helvetica, sans-serif;
     
     }
@@ -129,7 +129,7 @@
 
     body {
         font-family: 'customfont';
-        background-color: #a0c49d;
+        background-color: #D8C4B6;
         margin: 0 0 0 0;
         font-size: 16px;
         }
@@ -237,11 +237,11 @@
         }
 
     #form button:hover {
-        background-color: #c4d7b2;
+        background-color: #F5EFE7;
         }
 
     .article {
-        color: #3e5f38;
+        color: #213555;
         padding-top: 0%;
         padding-right: 5%;
         display: flex;
@@ -251,7 +251,7 @@
 
     #articleform {
         color: #ffffff;
-        background-color:#427a4c;
+        background-color:#213555;
         display: flex;
         flex-direction: column;
         padding-top: 0%;
@@ -263,7 +263,7 @@
 
 
     #TestiAvatar {
-        background-color: #427a4c;
+        background-color: #213555;
         border-radius: 25px;
         padding-left: 20px;
         padding-right: 10%;
@@ -355,7 +355,7 @@
 
     #opsection {
         color: white;
-        background-color: #427a4c;
+        background-color: #213555;
         height: 150px;
         align-items: center;
         }
@@ -363,7 +363,7 @@
     .breaklineclosing {
         border: none;
         height: 10px;
-        background-color:#427a4c;
+        background-color:#213555;
         margin: 10%;
         border-radius: 9px;
         }
@@ -371,7 +371,7 @@
     .breaklineopsection {
         border: none;
         height: 2px;
-        background-color:#427a4c;
+        background-color:#213555;
         margin: 5% 35% 5% 35%;
         border-radius: 9px;
         }
@@ -387,13 +387,13 @@
 
     footer {
         text-align: center;
-        background-color: black;
-        color: white;
+        background-color: #4F709C;
+        color: #F5EFE7;
         padding: 10px;
         }
 
     #book {
-        color: #3e5f38;
+        color: #213555;
         font-size: large;
         padding-bottom: 15%;
         }
@@ -408,15 +408,15 @@
         }
     
         nav a  {
-            border: 1px solid #85a389;
+            border: 1px solid #4F709C;
             border-radius: 9px;
             padding: 10px 10px;
             margin: auto;
-            color: #252525;
+            color: #4F709C;
             font-family: Arial, Helvetica, sans-serif;
             text-decoration: none;
         }
     
         nav a:hover {
-            background-color: #619458;
+            background-color: #4F709C;
         }
